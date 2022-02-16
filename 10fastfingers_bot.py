@@ -32,12 +32,12 @@ def login(email, password):
 #--------Set your own variables here!----------
 
 #Set URL and desired WPM
-URL = 'https://10fastfingers.com/competition/620cb00caac5f'
-wpm = 200
+URL = 'https://10fastfingers.com/competition/620d2c751a1e1'
+wpm = 80
 
 #Set your login Info
-mail = "YourEmail"
-secret = "YourPassword"
+mail = "yourMail"
+secret = "yourPassword"
 
 #Select which browser you want to use! You will need to have the Chrome/Geko driver installed
 browser = webdriver.Chrome()
@@ -49,6 +49,7 @@ keyboard = Controller()
 
 browser.get(URL)
 login(mail, secret) #Turn off login if not needed
+browser.get(URL)
 
 time.sleep(3)
 
