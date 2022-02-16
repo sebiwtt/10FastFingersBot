@@ -3,23 +3,52 @@ from selenium.webdriver.common.by import By
 from pynput.keyboard import Key, Controller
 import time
 
+#-----------------Functions-------------------
+
 def type(word):
     for key in word:
         keyboard.press(key)
         keyboard.release(key)
-        time.sleep(0.01)
     space = " "    
     keyboard.press(space)
     keyboard.release(space)  
 
-URL = 'https://10fastfingers.com/typing-test/german'
-wpm = 170
+def login(email, password):
+    sidebar = browser.find_element(By.ID, "sidebar-md-lg")
+    items = sidebar.find_elements(By.CLASS_NAME, "list-group")
+    login_link = items[1].find_element(By.TAG_NAME, "a")
+    login_link.click()
+
+    mail_field = browser.find_element(By.ID, "UserEmail")
+    pass_field = browser.find_element(By.ID, "UserPassword")
+    submit = browser.find_element(By.ID, "login-form-submit")
+    
+
+    mail_field.send_keys(email)
+    pass_field.send_keys(password)
+    submit.click()
+
+#-----------------Variables-------------------
+#--------Set your own variables here!----------
+
+#Set URL and desired WPM
+URL = 'https://10fastfingers.com/competition/620cb00caac5f'
+wpm = 200
+
+#Set your login Info
+mail = "YourEmail"
+secret = "YourPassword"
+
+#Select which browser you want to use! You will need to have the Chrome/Geko driver installed
+browser = webdriver.Chrome()
+#browser = webdriver.Firefox()
+
+#-----------------Main Code-------------------
 
 keyboard = Controller() 
-options = webdriver.ChromeOptions()
-options.add_argument("user-data-dir=C:\\Users\\theon\\AppData\\Local\\Google\\Chrome\\User Data\\Default")
-browser = webdriver.Chrome(options=options)
+
 browser.get(URL)
+login(mail, secret) #Turn off login if not needed
 
 time.sleep(3)
 
@@ -28,6 +57,7 @@ reload_box = main_container.find_element(By.ID, 'reload-box')
 words = reload_box.find_element(By.ID, "words")
 row = words.find_element(By.ID, "row1")
 wordlist = row.find_elements(By.TAG_NAME, "span")
+input = browser.find_element(By.ID, "inputfield")
 
 text = ""
 
@@ -35,12 +65,14 @@ for word in wordlist:
     text += word.get_attribute('innerHTML') + " "
 
 single_words = text.split(" ")
+  
+input.send_keys("")
 
-textbox = reload_box.find_element(By.ID, "inputfield");  
-textbox.send_keys("")
+delay = 60/wpm
 
 for word in single_words[:wpm]:
     type(word)
-    time.sleep(0.01)
+    time.sleep(delay)
     
+#Uncomment if browser should automatically close    
 #browser.close()

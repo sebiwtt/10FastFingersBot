@@ -1,0 +1,50 @@
+1645029341388	geckodriver	INFO	Listening on 127.0.0.1:50594
+1645029344444	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50595" "-no-remote" "-profile" "C:\\Users\\theon\\AppData\\Local\\Temp\\rust_mozprofile1NZhIq"
+1645029344720	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theon\\AppData\\Local\\Temp\\rust_mozprofile1NZhIq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50595/devtools/browser/839a23ba-6618-4038-a079-b7d669f4a82a
+1645029346551	Marionette	INFO	Listening on port 50600
+1645029346606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://10fastfingers.com/login line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 551 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://10fastfingers.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://10fastfingers.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3785 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7503 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2617 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 493 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2307 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1645029389957	Marionette	INFO	Stopped listening on port 50600
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1645029391797	geckodriver	INFO	Listening on 127.0.0.1:50951
+1645029394874	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50952" "-no-remote" "-profile" "C:\\Users\\theon\\AppData\\Local\\Temp\\rust_mozprofileRipsAo"
+1645029395149	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\theon\\AppData\\Local\\Temp\\rust_mozprofileRipsAo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50952/devtools/browser/fe8362cc-ba0a-4a12-8c22-42b58cc836b8
+1645029396805	Marionette	INFO	Listening on port 50958
+1645029396943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
+JavaScript warning: https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://10fastfingers.com/typing-test/german line 1 > injectedScript, line 2: ReferenceError: freestar is not defined
